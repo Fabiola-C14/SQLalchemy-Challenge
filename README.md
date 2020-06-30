@@ -20,6 +20,8 @@ Python and SQLAlchemy were used to perform a basic climate analysis and data exp
 * The Min, Max, Count and Avg functions were used to calculate the observations.
 * A query was also created to retrieve the last 12 months of temperature observation data (TOBS). Data was filtered by the highest number of observations.
 
+![](images/Temp_Histogram.png)
+
 ### Climate App
 
 After the initial analysis a Flask API was created based on the queries above.
@@ -49,3 +51,5 @@ After the initial analysis a Flask API was created based on the queries above.
 * The daily normals were calculated (i.e, min, avg, and max temperatures).
 * A list of dates was created  in the format %m-%d. The daily_normals were used to calculate the normals for each date string and append the results to a list.
 * The list of daily normals were loaded into a Pandas DataFrame and set the index equal to the date.
+
+![](images/normals_df.png)
