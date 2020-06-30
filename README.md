@@ -11,7 +11,6 @@ Python and SQLAlchemy were used to perform a basic climate analysis and data exp
 * A query was created to retrieve the last 12 months of precipitation data.
 * Query results were loaded into a Pandas DataFrame and the index was set as column.
 * Results were ploted using the DataFrame plot method.
-
 ![](images/precipitation_in_hawaii.png)
 
 ### Station Analysis
