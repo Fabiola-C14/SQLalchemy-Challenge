@@ -12,6 +12,8 @@ Python and SQLAlchemy were used to perform a basic climate analysis and data exp
 * Query results were loaded into a Pandas DataFrame and the index was set as column.
 * Results were ploted using the DataFrame plot method.
 
+![](images/precipitation_in_hawaii.png)
+
 ### Station Analysis
 
 * A query was created to calculate the total number of stations and most active stations. Data was sorted in descending order.
